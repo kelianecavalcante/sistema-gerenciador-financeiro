@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import GlobalStyle from "./styles/global";
 import Header from "./components/Header";
 import Resume from "./components/Resume";
 import Form from "./components/Form";
-import GlobalStyle from "./styles/global";
 
 const App = () => {
   const data = localStorage.getItem("transactions");
@@ -29,16 +29,29 @@ const App = () => {
 
     setIncome(`R$ ${income}`);
     setExpense(`R$ ${expense}`);
-    setTotal(`${Number(income) < Number(expense) ? "- " : ""}R$ ${total}`);
+    setTotal(`${Number(income) < Number(expense) ? "-" : ""}R$ ${total}`);
   }, [transactionsList]);
+
+  const handleAdd = (transaction) => {
+    const newArrayTransactions = [...transactionsList, transaction];
+
+    setTransactionsList(newArrayTransactions);
+
+    localStorage.setItem("transactions", JSON.stringify(newArrayTransactions));
+  };
 
   return (
     <>
       <Header />
       <Resume income={income} expense={expense} total={total} />
-      <Form />
+      <Form
+        handleAdd={handleAdd}
+        transactionsList={transactionsList}
+        setTransactionsList={setTransactionsList}
+      />
       <GlobalStyle />
     </>
   );
 };
+
 export default App;

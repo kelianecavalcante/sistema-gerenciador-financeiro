@@ -49,9 +49,9 @@ export const RadioGroup = styled.div`
 export const Button = styled.button`
     padding: 5px 10px;
     border: none;
-    borde-radius: 5px;
+    border-radius: 6px !important;
     cursor: pointer;
     color: #fff;
-    background-color: teal;
+    background-color: #25645D;
 
 `;
