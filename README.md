@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+<h1 align="center"> Sistema de Gerenciamento Financeiro </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+Este projeto foi desenvolvido com o objetivo de otimizar o gerenciamento de ganhos e gastos, permitindo o registro de todas as entradas e saídas de forma organizada. Ao final do mês ou período de análise, você poderá revisar suas anotações e identificar os gastos que podem ser reduzidos ou eliminados, possibilitando o estabelecimento de estratégias para uma gestão financeira mais eficiente. <br/>
+</p>
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+<ul>
+<li>Cadastro e exclusão de transações;</li>
+<li>Transações cadastradas são armazenadas com suas respectivas descrições detalhadas;</li>
+<li>Identificação por cor clara e eficiente para diferenciar entradas financeiras (verde) de saídas (vermelho);</li>
+<li>Visualização dinâmica dos valores, sendo atualizados automaticamente a cada alteração realizada.</li>
+</ul>
 
-### `npm start`
+## Layout
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <img alt="Gestor Financeiro" src="/src/img/demo.png"  width="700px"</img> 
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contribuição
 
-### `npm test`
+Esse projeto foi desenvolvido por meio de video tutorial disponibilizado no YouTube. Você pode ter acesso por meio [desse link](https://www.youtube.com/watch?v=pj4vA67olbU&list=LL&index=23&t=1606s&ab_channel=WillDev).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologias utilizadas
 
-### `npm run build`
+<div style="display: inline_block"><br>
+  <img align="center" alt="Keli-JS" height="40" width="40" src="https://cdn.iconscout.com/icon/free/png-64/javascript-3628858-3029998.png">
+  <img align="center" alt="Keli-React" height="40" width="40" src="https://cdn.iconscout.com/icon/free/png-64/react-1-282599.png">
+  <img align="center" alt="Keli-SDC" height="40" width="40" src="https://cdn-images-1.medium.com/max/1200/1*y1fCsOVCYCTi1B9Q_0BOYg.png">
+  <img align="center" alt="Keli-VSCode" height="40" width="40" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png">
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feito com ♥ by Keliane
