@@ -21,7 +21,7 @@ Este projeto foi desenvolvido com o objetivo de otimizar o gerenciamento de ganh
 
 ## Contribuição
 
-Esse projeto foi desenvolvido por meio de video tutorial disponibilizado no YouTube. Você pode ter acesso por meio [desse link](https://www.youtube.com/watch?v=pj4vA67olbU&list=LL&index=23&t=1606s&ab_channel=WillDev).
+Esse projeto foi desenvolvido por meio de video tutorial disponibilizado no YouTube, canal devchallenge.
 
 ## Tecnologias utilizadas
 
